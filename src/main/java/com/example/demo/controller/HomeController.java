@@ -25,6 +25,11 @@ public class HomeController {
 		return "Connect";
 	}
 
+	@GetMapping("/Setting")
+	public String Setting() {
+		return "Setting";
+	}
+
 	@GetMapping("/BLEled")
 	public String blel() {
 		return "BLEled";
